@@ -1,0 +1,169 @@
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, #fafafa ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #67daff;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.table-row-cell{
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+    -fx-text-fill: green;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #03a9f4;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+
+
+
+/*.table-view .cell{
+    -fx-cell-size: 35;
+    -fx-alignment: center-left;
+    -fx-background-color: #29292D;
+    -fx-border-color: #29292D;
+    -fx-text-fill: lightgray;
+    -fx-alignment: CENTER_LEFT;
+
+}
+
+ scroll bar starts here
+
+ The increment and decrement button CSS class of scrollbar
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+
+}
+
+ The main scrollbar **track** CSS class
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color:derive( #6622CC,80%);
+
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+ The main scrollbar **thumb** CSS class which we drag every time (movable)
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #6622CC,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}*/
+
+/* chart propertie */
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: false;
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-pie {
+    -fx-border-color: derive(-fx-pie-color, 1%);
+    -fx-border-width: 0px;
+}
+
+.button {
+    -fx-background-color: #03a9f4;
+}
+
+.button:hover{
+    -fx-background-color: #67daff;
+}
+
+.button:pressed {
+    -fx-background-color: #007ac1;
+}
+
+/*HBox*/
+
+.hbox-navButton {
+    -fx-background-color: #03a9f4;
+}
+
+.hbox-navButton:hover {
+    -fx-background-color: #67daff;
+}
+
+.hbox-navButton:pressed {
+    -fx-background-color: #007ac1;
+}
+
+.hbox-logOutNavButton:hover{
+    -fx-background-color: #ff7961;
+}
+
+.hbox-logOutNavButton:pressed{
+    -fx-background-color: #f44336;
+}
+
+/*VBox*/
+
+.vbox-navButton {
+    -fx-background-color: #03a9f4;
+}
+
+.vbox-navButton:hover {
+    -fx-background-color: #67daff;
+}
+
+.vbox-navButton:pressed {
+    -fx-background-color: #007ac1;
+}
+
+/*Action Button*/
+
+.login-actionButton:hover{
+    -fx-border-color: #757575;
+
+}
+
+.login-actionButton:pressed{
+    -fx-background-color: #c7c7c7;
+}
+
+.actionButton:hover{
+    -fx-background-color: #67daff;
+}
+
+.actionButton:pressed{
+    -fx-background-color: #03a9f4;
+}
+
+.exitActionButton:hover{
+    -fx-background-color: #ff7961;
+}
+
+.exitActionButton:pressed{
+    -fx-background-color: #f44336;
+}
+
+

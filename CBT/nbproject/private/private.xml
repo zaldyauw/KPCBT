@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/view/style.css</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/MainApp.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/AnswerDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/controller/PembuatSoalFormController.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/view/PembuatLoginForm.fxml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/QuestionDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/entity/Answer.hbm.xml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/PicturesquestionDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/controller/LoginController.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/MediacontentDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/view/PembuatSoalForm_1.fxml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/entity/Question.hbm.xml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/CoursedatabaseDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/PembuatSoalFormDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/StatusDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/SubtestDaoImpl.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/entity/Answer.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/hibernate.reveng.xml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/entity/AnswerId.java</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Zaldy%20Auw/Downloads/Tugas/zaldy-20191011T150149Z-001/zaldy/CBT/src/com/cbt/dao/UserDaoImpl.java</file>
+        </group>
+    </open-files>
+</project-private>

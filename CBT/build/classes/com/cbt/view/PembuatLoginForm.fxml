@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cbt.controller.LoginController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #007ac1;" HBox.hgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/logocbt.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <Line endX="100.0" scaleX="1.3" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label text="Login Pembuat Soal" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+         <children>
+            <HBox alignment="TOP_RIGHT" prefHeight="50.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <VBox prefHeight="18.0" prefWidth="30.0">
+                     <children>
+                        <HBox onMouseClicked="#minimizeButtonAction" prefHeight="27.0" prefWidth="31.0" styleClass="login-actionButton" stylesheets="@style.css">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/minimize_bv2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="255.0" layoutY="15.0" prefHeight="18.0" prefWidth="30.0">
+                     <children>
+                        <HBox onMouseClicked="#closeButtonAction" prefHeight="27.0" prefWidth="31.0" styleClass="login-actionButton" stylesheets="@style.css">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/baseline_close_black_48dp.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding></HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label text="Sign In" textFill="#757575">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <Line endX="100.0" scaleX="0.2" startX="-100.0" stroke="#007ac1" strokeWidth="2.0" />
+               </children>
+            </HBox>
+            <GridPane vgap="20.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="usernameTextField" maxWidth="250.0" prefWidth="250.0" promptText="Username" stylesheets="@style.css" />
+                     </children>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <PasswordField fx:id="passwordTextField" prefWidth="250.0" promptText="Password" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="31.0" prefWidth="250.0" style="-fx-background-color: #007ac1;" stylesheets="@style.css" text="Login" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <ComboBox fx:id="roleComboBox" disable="true" prefHeight="33.0" prefWidth="253.0" promptText="Login As" style="-fx-background-color: #ffffff; -fx-border-color: #babebe;">
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </ComboBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>
